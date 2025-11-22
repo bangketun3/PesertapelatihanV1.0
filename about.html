@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web PJBL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/LogoHantu.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!--- About Us --->
+    <section class="AboutUs">
+        <h1>Who We Are?</h1>
+        <p> Here are some of the owls that we have in our sanctuary.</p>
+
+        <div class="about-row">
+            <div class="AboutUs-col">
+                <h3>Dimas</h3>
+                <img src="image/Dimas.jpeg">
+                <p>Dimas Rakhmat Saputra <br>2510511145 <br>S1 Informatika</p>
+                </div>
+
+            <div class="AboutUs-col">
+                <h3>Aniqah</h3>
+                <img src="image/Aniqah.jpeg">
+                <p>Aniqah Raniah Ramadhani Lakare <br>2510511141<br>S1 Informatika</p>
+                </div>
+
+            <div class="AboutUs-col">
+                <h3>Naufal</h3>
+                <img src="image/Nopal.jpeg">
+                <p>Muhammad Naufal Alfarezi<br>2510511143<br>S1 Informatika</p>
+                </div>
+
+            <div class="AboutUs-col">
+                <h3>Rakha</h3>
+                <img src="image/Rakha.jpeg">
+                <p>Muhammad Rakha Pratama<br>2510511144<br>S1 Informatika</p>
+                </div>
+
+            <div class="AboutUs-col">
+                <h3>Septi</h3>
+                <img src="image/Septi.jpeg">
+                <p>Septi Astuti<br>2510511142<br>S1 Informatika</p>
+                </div>
+
+            <div class="AboutUs-col">
+                <h3>Alfian</h3>
+                <img src="image/Visitor1.png">
+                <p>Ambatukam </p>
+                </div>
+
+            <div class="AboutUs-col">
+                <h3>Catherine</h3>
+                <img src="image/Catherine.jpeg">
+                <p>Catherine Fredrica Andries<br>2410514020<br>S1 Sains Data</p>
+                </div>
+        </div>
+        <div class="about-row">
+            <div class="AboutUs-col">
+                <h3>Raja</h3>
+                <img src="image/Raja.jpeg">
+                <p>Raja Ihsan Kamil<br>2510501094<br>D3 Sistem Informasi</p>
+                </div>
+                
+            <div class="AboutUs-col">
+                <h3>Deni</h3>
+                <img src="image/Deni.jpeg">
+                <p>Deni Setiawan<br>2510501097<br>D3 Sistem Informasi</p>
+                </div>
+        </div>
+     </section> 
+
+     <!--- Footer --->
+
+     <section class="footer">
+        <h4>About US</h4>
+        <p> NO.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Made With <i class="fa-regular fa-heart"></i>By PJBL FIK Group 25</p>
+     </section>
+    <!-- JavaScript for Toggle Menu -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
